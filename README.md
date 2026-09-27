@@ -30,7 +30,7 @@
 
 ## 👋 About Me
 
-I'm a final-year **CSE (AI/ML)** student at **VIT Bhopal University** (CGPA 8.19), spending most of my time building things that sit at the intersection of **agentic AI, RAG systems, and LLM orchestration** — then shipping them, not just prototyping them. I'm a **Kaggle Expert** (top 3% globally), a published **open-source contributor** to the Haystack ecosystem, and someone who reads AI/ML research the way other people read the news.
+I'm a final-year **CSE (AI/ML)** student at **VIT Bhopal University** (CGPA 8.19), spending most of my time building things that sit at the intersection of **Agentic AI, RAG systems, and LLM orchestration**. I'm a **Kaggle Expert** (top 3% globally), a published **open-source contributor** to the Haystack ecosystem, and someone who reads AI/ML research the way other people read the news.
 
 I'm currently looking for **AI Engineering roles** (and I'm also curious about AI Product roles) where I can go from "cool notebook" to "thing that runs in production."
 
@@ -199,8 +199,7 @@ An AI-powered, all-in-one study & revision platform that turns any topic into a 
 
 I'm always up for talking about agentic AI, RAG systems, or why your eval harness is lying to you.
 
-<a href="https://linkedin.com/in/<LINKEDIN_USERNAME>"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://x.com/<X_USERNAME>"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+<a href="https://linkedin.com/in/avish-sinha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://www.kaggle.com/avish006"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
 <a href="mailto:avishsinha10@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
