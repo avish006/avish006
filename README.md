@@ -84,7 +84,7 @@ class Avish:
 
 **Infra & Tooling**
 
-<p><img src="https://skillicons.dev/icons?i=fastapi,flask,docker,git,github,jupyter&theme=dark" /></p>
+<p> <img src="https://skillicons.dev/icons?i=fastapi,flask,docker,git,github,jupyter&theme=dark" /> </p>
 
 <sub>+ FAISS</sub>
 
