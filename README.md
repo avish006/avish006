@@ -118,7 +118,6 @@ A multimodal RAG system built to actually survive 700–900 page PDFs, not just 
 - PyMuPDF ingestion into 500-char chunks (50-char overlap) with **MD5-hash caching** to skip reprocessing repeat uploads; grounded, KaTeX-rendered math answers
 - **CLIP (ViT-B/32)** for image-query relevance + on-demand EasyOCR across up to 50 figures/doc — shipped a 300MB+ text-only build for free-tier HF Spaces alongside the full 2.7GB+ multimodal version
 
-> 📌 *Repo link above is my best match by description — rename/relink it if it points somewhere unexpected.*
 
 ### 🧭 Pathwise — CodeVerse Hackathon Finalist
 <p>
@@ -132,7 +131,6 @@ An AI-powered, all-in-one study & revision platform that turns any topic into a 
 - **Finalist out of 250 teams** at the CodeVerse Hackathon (Metaversity Club, VIT Bhopal, powered by OSCode)
 - Built with teammates **Abhay Tyagi**, **Ashish Vishwakarma** & **Vaibhav Arora**
 
-> 📌 *Deployment is currently down (API tokens), so no live demo link — swap in the GitHub repo link here once you have it handy.*
 
 <br/>
 
