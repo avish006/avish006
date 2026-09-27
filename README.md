@@ -15,7 +15,7 @@
 
 <p>
   <a href="https://linkedin.com/in/<LINKEDIN_USERNAME>"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://kaggle.com/<KAGGLE_USERNAME>"><img src="https://img.shields.io/badge/Kaggle-Expert-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
+  <a href="https://www.kaggle.com/avish006"><img src="https://img.shields.io/badge/Kaggle-Expert-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
   <a href="https://leetcode.com/<LEETCODE_USERNAME>"><img src="https://img.shields.io/badge/LeetCode-500%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
   <a href="https://codeforces.com/profile/<CODEFORCES_USERNAME>"><img src="https://img.shields.io/badge/Codeforces-Profile-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
   <a href="mailto:avishsinha10@gmail.com"><img src="https://img.shields.io/badge/Email-avishsinha10%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -60,27 +60,35 @@ class Avish:
 
 **Languages & Core**
 
-<img src="https://skillicons.dev/icons?i=python,cpp,postgresql&theme=dark" />
+<p><img src="https://skillicons.dev/icons?i=python,cpp,postgresql&theme=dark" /></p>
 
 **Agentic AI & LLM Orchestration**
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF6B35?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square)
-![ReAct](https://img.shields.io/badge/ReAct_Agents-6366F1?style=flat-square)
+<p>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/CrewAI-FF6B35?style=flat-square" />
+<img src="https://img.shields.io/badge/MCP-000000?style=flat-square" />
+<img src="https://img.shields.io/badge/ReAct_Agents-6366F1?style=flat-square" />
+</p>
 
 **ML / GenAI**
 
-<img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&theme=dark" />
-![RAG](https://img.shields.io/badge/RAG-8B5CF6?style=flat-square)
-![LoRA/PEFT](https://img.shields.io/badge/LoRA%20%2F%20PEFT-8B5CF6?style=flat-square)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+<p><img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&theme=dark" /></p>
+
+<p>
+<img src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square" />
+<img src="https://img.shields.io/badge/LoRA%20%2F%20PEFT-8B5CF6?style=flat-square" />
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+</p>
 
 **Infra & Tooling**
 
-<img src="https://skillicons.dev/icons?i=fastapi,flask,docker,git,github,jupyter&theme=dark" />
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square)
+<p><img src="https://skillicons.dev/icons?i=fastapi,flask,docker,git,github,jupyter&theme=dark" /></p>
+
+<p>
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square" />
+</p>
 
 </div>
 
@@ -113,6 +121,20 @@ A multimodal RAG system built to actually survive 700–900 page PDFs, not just 
 - **CLIP (ViT-B/32)** for image-query relevance + on-demand EasyOCR across up to 50 figures/doc — shipped a 300MB+ text-only build for free-tier HF Spaces alongside the full 2.7GB+ multimodal version
 
 > 📌 *Repo link above is my best match by description — rename/relink it if it points somewhere unexpected.*
+
+### 🧭 Pathwise — CodeVerse Hackathon Finalist
+<p>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+</p>
+
+An AI-powered, all-in-one study & revision platform that turns any topic into a personalized, step-by-step learning roadmap, with content fact-checked live against Wikipedia/Google search APIs.
+- Built with a **React + Flask** stack, using **Supabase** for the database layer
+- **Finalist out of 250 teams** at the CodeVerse Hackathon (Metaversity Club, VIT Bhopal, powered by OSCode)
+- Built with teammates **Abhay Tyagi**, **Ashish Vishwakarma** & **Vaibhav Arora**
+
+> 📌 *Deployment is currently down (API tokens), so no live demo link — swap in the GitHub repo link here once you have it handy.*
 
 <br/>
 
@@ -157,7 +179,7 @@ A multimodal RAG system built to actually survive 700–900 page PDFs, not just 
 | **Kaggle Expert** | Peak rank **1,429 / 60,000+** (Top 3%) · 🥈 1 Silver + 🥉 5 Bronze medals · 100+ forks · 150+ upvotes |
 | **Flipkart Gridlock 2.0** | Ranked **42 / 6,912** — national-level engineering challenge |
 | **Shell AI Hackathon** | Ranked **181 / 1,500+** — fuel blend property prediction (ML) |
-| **CodeVerse Hackathon** | **Top 50 / 300+** teams — GenAI solution for EdTech |
+| **CodeVerse Hackathon** | **Finalist, Top 50 / 300+** teams — built *Pathwise*, an AI-powered EdTech study platform |
 | **DSA / Competitive Programming** | **500+ problems** solved across LeetCode, GeeksforGeeks & Codeforces |
 
 </div>
@@ -179,7 +201,7 @@ I'm always up for talking about agentic AI, RAG systems, or why your eval harnes
 
 <a href="https://linkedin.com/in/<LINKEDIN_USERNAME>"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://x.com/<X_USERNAME>"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-<a href="https://kaggle.com/<KAGGLE_USERNAME>"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
+<a href="https://www.kaggle.com/avish006"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
 <a href="mailto:avishsinha10@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 <br/><br/>
