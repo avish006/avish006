@@ -65,21 +65,20 @@ class Avish:
 **Agentic AI & LLM Orchestration**
 
 <p>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
-<img src="https://img.shields.io/badge/CrewAI-FF6B35?style=flat-square" />
-<img src="https://img.shields.io/badge/MCP-000000?style=flat-square" />
+<img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/langchain-color.svg" height="48" alt="LangChain" title="LangChain" />
+<img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/langgraph-color.svg" height="48" alt="LangGraph" title="LangGraph" />
+<img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/crewai-color.svg" height="48" alt="CrewAI" title="CrewAI" />
+<img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/mcp.png" height="48" alt="MCP" title="MCP" />
 <img src="https://img.shields.io/badge/ReAct_Agents-6366F1?style=flat-square" />
 </p>
 
 **ML / GenAI**
 
-<p><img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&theme=dark" /></p>
+<p><img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow,huggingface&theme=dark" /></p>
 
 <p>
 <img src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square" />
 <img src="https://img.shields.io/badge/LoRA%20%2F%20PEFT-8B5CF6?style=flat-square" />
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
 </p>
 
 **Infra & Tooling**
