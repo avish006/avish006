@@ -157,8 +157,8 @@ An AI-powered, all-in-one study & revision platform that turns any topic into a 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=avish006&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=avish006&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="165" src="https://github-readme-stats-577is8o1u-avish006s-projects.vercel.app/api?username=avish006&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" />
+<img height="165" src="https://github-readme-stats-577is8o1u-avish006s-projects.vercel.app/api/top-langs/?username=avish006&layout=compact&theme=tokyonight&hide_border=true" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=avish006&theme=tokyonight&hide_border=true" />
 
