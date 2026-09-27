@@ -65,29 +65,28 @@ class Avish:
 **Agentic AI & LLM Orchestration**
 
 <p>
-<img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/langchain-color.svg" height="48" alt="LangChain" title="LangChain" />
-<img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/langgraph-color.svg" height="48" alt="LangGraph" title="LangGraph" />
-<img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-svg/icons/crewai-color.svg" height="48" alt="CrewAI" title="CrewAI" />
-<img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/mcp.png" height="48" alt="MCP" title="MCP" />
-<img src="https://img.shields.io/badge/ReAct_Agents-6366F1?style=flat-square" />
+<img src="icons/langchain.png" height="50" alt="LangChain" title="LangChain" style="vertical-align:middle" />
+<img src="icons/langgraph.png" height="50" alt="LangGraph" title="LangGraph" style="vertical-align:middle" />
+<img src="icons/crewai.png" height="50" alt="CrewAI" title="CrewAI" style="vertical-align:middle" />
+<img src="icons/mcp.png" height="50" alt="MCP" title="MCP" style="vertical-align:middle" />
 </p>
+
+<sub>+ ReAct Agents</sub>
 
 **ML / GenAI**
 
-<p><img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow,huggingface&theme=dark" /></p>
-
 <p>
-<img src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square" />
-<img src="https://img.shields.io/badge/LoRA%20%2F%20PEFT-8B5CF6?style=flat-square" />
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&theme=dark" style="vertical-align:middle" />
+<img src="icons/huggingface.png" height="50" alt="Hugging Face" title="Hugging Face" style="vertical-align:middle" />
 </p>
+
+<sub>+ RAG · LoRA / PEFT</sub>
 
 **Infra & Tooling**
 
 <p><img src="https://skillicons.dev/icons?i=fastapi,flask,docker,git,github,jupyter&theme=dark" /></p>
 
-<p>
-<img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square" />
-</p>
+<sub>+ FAISS</sub>
 
 </div>
 
