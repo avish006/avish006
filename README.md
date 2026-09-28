@@ -149,11 +149,8 @@ An AI-powered, all-in-one study & revision platform that turns any topic into a 
 
 </div>
 
-<br/>
 
-<br/>
-
-## 🥇 Competitive Programming & Achievements
+## 🥇 Hackathon & Achievements
 
 <div align="center">
 
@@ -171,8 +168,8 @@ An AI-powered, all-in-one study & revision platform that turns any topic into a 
 
 ## 📜 Certifications
 
-- 🎓 **OCI Certified Generative AI Professional** — Oracle
-- 🎓 **Deep Learning Specialization** — DeepLearning.AI
+- 🎓 **OCI Certified Generative AI Professional**
+- 🎓 **Deep Learning Specialization**
 
 <br/>
 
