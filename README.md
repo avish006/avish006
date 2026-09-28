@@ -151,19 +151,6 @@ An AI-powered, all-in-one study & revision platform that turns any topic into a 
 
 <br/>
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=avish006&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" />
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=avish006&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook" />
-
-<img src="https://streak-stats.demolab.com/?user=avish006&theme=tokyonight&hide_border=true" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=avish006&theme=tokyonight&no-frame=true&row=1&column=6" />
-
-</div>
-
 <br/>
 
 ## 🥇 Competitive Programming & Achievements
