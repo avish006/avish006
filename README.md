@@ -21,9 +21,6 @@
   <a href="mailto:avishsinha10@gmail.com"><img src="https://img.shields.io/badge/Email-avishsinha10%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=avish006&label=Profile%20Views&color=6366f1&style=flat-square" />
-<img src="https://img.shields.io/github/followers/avish006?style=flat-square&color=8B5CF6&logo=github&label=Followers" />
-
 </div>
 
 <br/>
