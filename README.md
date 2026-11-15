@@ -11,7 +11,13 @@
 
 ## About me
 
-I’m Avish, a final-year B.Tech Computer Science student specializing in AI and ML at VIT Bhopal (2027). I build retrieval systems for long documents and tools for tracing and evaluating agent calls. I’m open to **AI engineering internships**.
+I’m Avish, a final-year B.Tech Computer Science student specializing in AI and ML at VIT Bhopal (2027). I build retrieval systems for long documents and tools for tracing and evaluating AI agents. I’m open to **AI engineering internships**.
+
+I’m curious and a little competitive. When a Kaggle run goes well, I like to change the setup and see if the result holds up. I bring that same curiosity to building AI tools, especially when an agent takes a step I didn’t expect.
+
+I keep up with AI and data engineering news, especially new language models and how AI systems manage context and memory.
+
+Outside of tech, I play chess, follow Formula 1, and listen to classical music. I read widely, especially about history, and enjoy historical films.
 
 ## Tech stack
 
