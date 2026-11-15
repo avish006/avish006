@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="154" viewBox="0 0 920 154" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub statistics</title>
+  <desc id="desc">17 public repositories and 7 followers as of 15 November 2026. Featured project languages include Python, TypeScript and JavaScript.</desc>
+  <g fill="#161C18" stroke="#39463B">
+    <rect x="0.5" y="0.5" width="449" height="153" rx="9"/>
+    <rect x="470.5" y="0.5" width="449" height="153" rx="9"/>
+  </g>
+  <g font-family="Consolas, monospace" font-size="15" letter-spacing="0.8" fill="#C8EF88">
+    <text x="26" y="32">PUBLIC GITHUB PROFILE</text>
+    <text x="496" y="32">LANGUAGES IN FEATURED REPOS</text>
+  </g>
+  <path d="M230 48v61" stroke="#39463B"/>
+  <g font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#F8F6ED">
+    <text x="26" y="86">17</text>
+    <text x="255" y="86">7</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#C3CFC4">
+    <text x="26" y="108">Public repositories</text>
+    <text x="255" y="108">Followers</text>
+    <text x="512" y="67">Python</text>
+    <text x="512" y="93">TypeScript</text>
+    <text x="512" y="119">JavaScript</text>
+  </g>
+  <g fill="#C8EF88">
+    <circle cx="499" cy="62" r="3.5"/>
+    <circle cx="499" cy="88" r="3.5"/>
+    <circle cx="499" cy="114" r="3.5"/>
+  </g>
+  <text x="26" y="136" font-family="Consolas, monospace" font-size="13" fill="#ABB9AB">SNAPSHOT / 15 NOV 2026</text>
+</svg>
