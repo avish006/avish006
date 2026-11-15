@@ -36,55 +36,50 @@ I’m Avish, a final-year B.Tech Computer Science student specializing in AI and
 
 ### [Agent Lenz](https://github.com/avish006/Agent_Eval)
 
-> An evaluation harness for tool-calling agents.
-
-- Captures LangChain traces and uses DeepEval to score tool selection, arguments, plan adherence, task completion, and answer quality. The Gemma 4 judge validates structured output with Pydantic and backs off on rate limits.
-- On seven scripted refund scenarios, tool correctness passed **7/7** and task completion passed **6/7**. [Evaluation output](https://github.com/avish006/Agent_Eval#empirical-benchmark-results)
+- **Pinpoints where a tool-calling agent goes wrong.** On seven scripted refund cases, tool correctness passed **7/7** and task completion passed **6/7**. The traces surfaced an unnecessary pricing lookup before the refund eligibility check. [Benchmark results](https://github.com/avish006/Agent_Eval#empirical-benchmark-results)
+- Captures LangChain traces and scores tool selection, call arguments, plan adherence, step efficiency, task completion, and answer quality with DeepEval. The Gemma 4 judge validates structured output with Pydantic and uses exponential backoff on rate limits.
 
 ### [DocuMind](https://github.com/avish006/Rag-Project)
 
-> A PDF reader and document chat in the same window.
-
-- Combines BM25 and FAISS for text retrieval, with CLIP and on-demand OCR for figures.
-- Tested on **10+ PDFs**, including books of **700–900 pages**. PyMuPDF handles ingestion, and repeat uploads reuse the cached index. [Streamlit version](https://github.com/avish006/Streamlit-Rag-Deployment)
+- **Lets readers ask about text and figures while keeping the original PDF in view.** Tested on **10+ PDFs**, including books of **700–900 pages**. A content-hash cache reuses the index on repeat uploads. [Streamlit version](https://github.com/avish006/Streamlit-Rag-Deployment)
+- Extracts text and images with PyMuPDF, ranks text chunks by combining BM25 with BGE embeddings indexed in FAISS, and uses CLIP and on-demand OCR to add context when users ask about a figure.
 
 ### [upstash-haystack](https://github.com/avish006/upstash_haystack)
 
-> A Python integration for using Upstash Vector as a Haystack document store.
+- **Lets Haystack users add serverless vector search to a retrieval pipeline.** The package is installable from PyPI and listed in the Haystack integration directory. [PyPI](https://pypi.org/project/upstash-haystack/) · [Haystack directory](https://haystack.deepset.ai/integrations/upstash/) · [Merged PR](https://github.com/deepset-ai/haystack-integrations/pull/560)
+- Implements a document store with batch writes and nested metadata-filter translation. The retrievers support dense search and hybrid dense/sparse search via Reciprocal Rank Fusion. GitHub Actions runs unit tests across Python 3.10–3.13 and live integration tests on 3.12.
 
-- Supports dense and hybrid retrieval, batch writes, and nested filter translation. Includes 37 unit and live integration tests, CI for Python 3.10–3.13, and automated PyPI releases.
-- [Install from PyPI](https://pypi.org/project/upstash-haystack/) · [Haystack integration directory](https://haystack.deepset.ai/integrations/upstash/) · [Merged listing PR](https://github.com/deepset-ai/haystack-integrations/pull/560)
+### [Job Hunt AI Agent](https://github.com/avish006/job-hunt-agent)
 
-### More projects
+- **Gives candidates a single ranked shortlist across job boards.** Results include matched skills and links to the original postings, so candidates can see where their résumé fits and decide which openings to review first.
+- Gemma 4 extracts search terms from a PDF résumé and chat prompt. A CrewAI workflow combines results from JobSpy, RSS feeds, and SearXNG/Crawl4AI. It deduplicates by title and company, ranks with equally weighted skill overlap and TF-IDF cosine similarity, and exposes search through FastAPI and an optional MCP tool.
 
-- [**Job Hunt AI Agent**](https://github.com/avish006/job-hunt-agent) derives queries from a résumé, gathers listings in parallel, and ranks them by skill and text overlap. It has a FastAPI backend and an MCP entry point.
-- [**Deep Research Agent**](https://github.com/avish006/deep-research-agent) uses LangGraph to plan searches, collect sources, and stream a report with citations.
-- **Pathwise** is a CodeVerse team project that turns topics into study roadmaps and checks generated content against web sources. Built with Abhay Tyagi, Ashish Vishwakarma, and Vaibhav Arora.
+### [Deep Research Agent](https://github.com/avish006/deep-research-agent)
+
+- **Turns a broad question into a source-linked research brief.** Readers can watch the search and drafting stages in React, then follow citations in the Markdown report to check the evidence behind its findings.
+- LangGraph coordinates a Gemma 4 planner, a search node that scores URLs using credibility heuristics and extracts page text without LLM calls, and a writer that drafts the report section by section. An Express API streams progress through server-sent events.
+
+### [Pathwise](https://github.com/crowaltz24/pathwise)
+
+- **Gives students a step-by-step study plan, topic-specific Q&A, and notes in one place.** Our team used it to revise for end-of-term exams and reached the CodeVerse finals. [Team demo](https://www.linkedin.com/posts/abhay-tyagi-61329a28a_hackathon-ai-webdevelopment-activity-7351263617926782978-T5me)
+- A React frontend calls Flask endpoints to generate roadmaps and lesson content. The backend adds Google Search results as context for generation, and Supabase handles authentication and stores users’ learning paths. Built with Abhay Tyagi, Ashish Vishwakarma, and Vaibhav Arora.
+
+### [Indian Startup Funding](https://github.com/avish006/Startup-Analysis)
+
+- **Lets readers compare where funding went and how deal activity changed over time.** The dashboard shows funding by industry and city, surfaces investors by deal count, and exports the filtered records as CSV for further analysis.
+- Standardizes industry and city names with pandas, aggregates deal amounts by month and year, and presents the results in Streamlit with filters for year, industry, and startup.
+
+### [Crypto Trading Analysis](https://github.com/avish006/Crypto-Trading-Data-Analysis)
+
+- **Shows how trading performance varied across market sentiment regimes.** Few of the **32 accounts** in the sample showed consistent profits during Extreme Fear. The analysis reports drawdown alongside returns so readers can compare the risk taken across accounts.
+- Uses pandas in a Jupyter notebook to align trade-level profit and loss with Fear & Greed Index data. Compares accounts using Sharpe and Sortino ratios, maximum drawdown, win rate, and profit factor.
+
+### [Bank Loan Dashboard](https://github.com/avish006/Power-BI-Bank-Loan-Dashboard)
+
+- **Makes it easier to see where lending volume and charge-offs are concentrated.** The Power BI dashboard lets readers compare funded and repaid amounts, loan status, and borrower segments to identify patterns worth investigating.
+- Uses PostgreSQL to aggregate applications, funded amounts, receipts, interest rates, and debt-to-income ratios by month and state. Calculates the portfolio’s charge-off rate from recorded loan statuses.
 
 ---
-
-## GitHub statistics
-
-<p align="center">
-  <a href="https://github.com/avish006">
-    <img src="./assets/profile-stats.svg" width="100%" alt="17 public repositories and 7 followers as of 15 November 2026. Core languages: Python, C++, and SQL." />
-  </a>
-</p>
-
----
-
-## Repository showcase
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top"><a href="https://github.com/avish006/Agent_Eval"><strong>Agent Lenz</strong></a><br />Tool call traces and refund agent benchmarks<br /><sub>LangChain · DeepEval</sub></td>
-    <td width="50%" valign="top"><a href="https://github.com/avish006/Rag-Project"><strong>DocuMind</strong></a><br />Read and query long PDFs side by side<br /><sub>Flask · FAISS</sub></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><a href="https://github.com/avish006/upstash_haystack"><strong>upstash-haystack</strong></a><br />Upstash Vector for Haystack pipelines<br /><sub>Python · Haystack</sub></td>
-    <td width="50%" valign="top"><a href="https://github.com/avish006/job-hunt-agent"><strong>Job Hunt AI Agent</strong></a><br />Resume-aware job search and ranking<br /><sub>FastAPI · MCP</sub></td>
-  </tr>
-</table>
 
 ## Hackathons & Achievements
 
@@ -93,13 +88,11 @@ I’m Avish, a final-year B.Tech Computer Science student specializing in AI and
 | **Kaggle Expert** | Peak rank **1,429 / 60,000+** (Top 3%) · 1 Silver + 5 Bronze medals · 100+ forks · 150+ upvotes |
 | **Flipkart Gridlock 2.0** | Ranked **42 / 6,912** — national-level engineering challenge |
 | **Shell AI Hackathon** | Ranked **181 / 1,500+** — fuel blend property prediction (ML) |
-| **CodeVerse Hackathon** | **Finalist, Top 50 / 300+** teams — built *Pathwise*, an AI-powered EdTech study platform |
+| **CodeVerse Hackathon** | **Finalist** — built *Pathwise*, an AI-powered EdTech study platform |
 | **DSA / Competitive Programming** | **500+ problems** solved across LeetCode, GeeksforGeeks & Codeforces |
 
 <details>
-<summary>Dashboards and credentials</summary>
-
-- [Indian Startup Funding](https://github.com/avish006/Startup-Analysis) · [Crypto Trading Analysis](https://github.com/avish006/Crypto-Trading-Data-Analysis) · [Bank Loan Dashboard](https://github.com/avish006/Power-BI-Bank-Loan-Dashboard)
+<summary>Credentials</summary>
 
 - [OCI Certified Generative AI Professional](https://catalog-education.oracle.com/ords/certview/sharebadge?id=B5989130D2866FAEA5F7AAF2E6B72AACE90BC608CCF3513AFEFF9CC8AF76799A)
 - [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/1DE22K271YAV)
