@@ -1,187 +1,94 @@
-<!--
-  💡 HOW TO MAKE THIS SHOW UP ON github.com/avish006
-  1) Create a new PUBLIC repository named EXACTLY: avish006  (same as your username)
-  2) Add this file to that repo's root as README.md
-  3) Find every <PLACEHOLDER> below and swap in your real profile links, then delete this comment.
--->
+# Avish Sinha
 
-<div align="center">
+I’m a final-year Computer Science student specializing in AI and ML at VIT Bhopal, graduating in 2027. My projects cover retrieval for long documents, evaluation for tool-calling agents, and Python integrations for LLM applications. I’m looking for AI engineering internships and early-career roles in applied AI and ML systems.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:8B5CF6&height=200&section=header&text=Hi,%20I'm%20Avish%20Sinha&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI/ML%20Engineer%20%7C%20Agent%20Builder%20%7C%20Kaggle%20Expert&descAlignY=58&descSize=18" width="100%"/>
+[LinkedIn](https://www.linkedin.com/in/avish-sinha/) · [Email](mailto:avishsinha10@gmail.com) · [Kaggle](https://www.kaggle.com/avish006) · [LeetCode](https://leetcode.com/u/avish006/) · [Codeforces](https://codeforces.com/profile/avish006)
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+in+the+Making;Building+Autonomous+AI+Agents+%26+RAG+Systems;Kaggle+Expert+%7C+Open-Source+Contributor;Final-Year+CSE+(AI%2FML)+%40+VIT+Bhopal" alt="Typing SVG" />
-</a>
+## Open source
 
-<p>
-  <a href="https://linkedin.com/in/avish-sinha/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://www.kaggle.com/avish006"><img src="https://img.shields.io/badge/Kaggle-Expert-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/avish006/"><img src="https://img.shields.io/badge/LeetCode-500%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
-  <a href="https://codeforces.com/profile/avish006"><img src="https://img.shields.io/badge/Codeforces-Profile-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
-  <a href="mailto:avishsinha10@gmail.com"><img src="https://img.shields.io/badge/Email-avishsinha10%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
+### [upstash-haystack](https://github.com/avish006/upstash_haystack)
 
-</div>
+A community integration that adds Upstash Vector to Haystack as a document store. Published on PyPI under Apache 2.0 and listed in the Haystack integration directory through a merged listing PR.
 
-<br/>
+- Provides a document store and two retrievers for dense and hybrid search. Hybrid retrieval combines dense and sparse results using Upstash’s native Reciprocal Rank Fusion.
+- Supports batched writes, duplicate handling, and translation of nested Haystack filters to Upstash filter expressions.
+- Includes unit and live integration tests, a GitHub Actions matrix for Python 3.10–3.13, and automated PyPI releases.
 
-## 👋 About Me
+[PyPI](https://pypi.org/project/upstash-haystack/) · [Haystack listing](https://haystack.deepset.ai/integrations/upstash/) · [Merged PR](https://github.com/deepset-ai/haystack-integrations/pull/560)
 
-I'm a final-year **CSE (AI/ML)** student at **VIT Bhopal University** (CGPA 8.19), spending most of my time building things that sit at the intersection of **Agentic AI, RAG systems, and LLM orchestration**. I'm a **Kaggle Expert** (top 3% globally), a published **open-source contributor** to the Haystack ecosystem, and someone who reads AI/ML research the way other people read the news.
+## AI engineering projects
 
-I'm currently looking for **AI Engineering roles** (and I'm also curious about AI Product roles) where I can go from "cool notebook" to "thing that runs in production."
+### [Agent Lenz](https://github.com/avish006/Agent_Eval) | Agent evaluation and tracing
 
-```python
-class Avish:
-    def __init__(self):
-        self.role       = "Final-Year CSE (AI/ML) Student"
-        self.focus      = ["Agentic AI", "RAG Pipelines", "LLM Orchestration", "MCP"]
-        self.currently  = "Competing in Kaggle's ARC Prize 2026 (ARC-AGI-3)"
-        self.philosophy = "Read the paper, then go build the thing"
-```
+An evaluation harness for a simulated customer refund agent built with LangChain and DeepEval.
 
-<br/>
+- Captures tool calls and execution traces, then checks task completion, tool selection, arguments, plan quality, plan adherence, step efficiency, and answer correctness.
+- On the repo’s seven scripted refund scenarios, tool correctness passed **7/7** and task completion passed **6/7**.
+- The Gemma judge uses concurrency limits and retry backoff for HTTP 429 responses, with Pydantic validation for structured outputs.
 
-## 🔭 Currently Building
+### [DocuMind](https://github.com/avish006/Rag-Project) | Multimodal RAG for long PDFs
 
-- 🧩 **ARC Prize 2026 (ARC-AGI-3)** — building an agentic solver for the ARC-AGI-3 Kaggle contest
-- 🌾 **Kaggriculture** — a farming agent competing on the live Kaggle simulation ladder
-- 📚 Researching **hierarchical text classification for Indian legal documents** on the side
-- 🌱 Maintaining `upstash-haystack`, an officially listed integration in the Haystack ecosystem
+A PDF reader with chat alongside the document. Tested on more than ten PDFs, including books of 700–900 pages.
 
-<br/>
+- Combines BM25 with FAISS retrieval over BGE embeddings. PyMuPDF handles ingestion, and a file hash lets repeat uploads reuse the cached index.
+- Uses CLIP to select relevant figures and EasyOCR to extract text from them on demand.
+- A [lighter Streamlit build](https://github.com/avish006/Streamlit-Rag-Deployment) supports deployment with fewer resources.
 
-## 🧠 Tech Stack
+### [Job Hunt AI Agent](https://github.com/avish006/job-hunt-agent) | Search and ranking
 
-<div align="center">
+A search tool that converts a resume and a prompt into queries, gathers listings from several sources in parallel, and presents ranked results in a React interface.
 
-**Languages & Core**
+- Uses Gemma to extract role and location signals. Ranks listings using skill overlap and TF-IDF cosine similarity.
+- Serves results through FastAPI and exposes the search pipeline as an optional MCP tool.
 
-<p><img src="https://skillicons.dev/icons?i=python,cpp,postgresql&theme=dark" /></p>
+### [Deep Research Agent](https://github.com/avish006/deep-research-agent) | Research and synthesis
 
-**Agentic AI & LLM Orchestration**
+A LangGraph workflow that plans queries, extracts source material, and writes a sourced Markdown report.
 
-<p>
-<img src="icons/langchain.png" height="50" alt="LangChain" title="LangChain" style="vertical-align:middle" />
-<img src="icons/langgraph.png" height="50" alt="LangGraph" title="LangGraph" style="vertical-align:middle" />
-<img src="icons/crewai.png" height="50" alt="CrewAI" title="CrewAI" style="vertical-align:middle" />
-<img src="icons/mcp.png" height="50" alt="MCP" title="MCP" style="vertical-align:middle" />
-</p>
+- Uses a separate source collection stage and streams progress and report output to a React UI over Server-Sent Events.
+- Includes retry handling for model rate limits and Docker configuration for deployment on Render.
 
-<sub>+ ReAct Agents</sub>
+### Pathwise | AI study and revision tool
 
-**ML / GenAI**
+A team project that generates study roadmaps and uses web sources to check generated content. Built with React, Flask, and Supabase for the CodeVerse Hackathon with Abhay Tyagi, Ashish Vishwakarma, and Vaibhav Arora.
 
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&theme=dark" style="vertical-align:middle" />
-<img src="icons/huggingface.png" height="50" alt="Hugging Face" title="Hugging Face" style="vertical-align:middle" />
-</p>
+## Applied ML, research, and experiments
 
-<sub>+ RAG · LoRA / PEFT</sub>
+| Work | Focus |
+| --- | --- |
+| [ARC Prize 2026 / ARC-AGI-3](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3) | Agent experiments for interactive reasoning tasks. |
+| [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture) | Strategy evaluation for a competitive farming simulation agent. |
+| Indian legal document classification | Exploration of hierarchical text classification for Indian legal documents. |
+| [Multi-PDF RAG capstone](https://github.com/avish006/RAG_Streamlit) | Streamlit app with a history-aware LangChain retriever, ChromaDB, and Gemini. |
+| [MPOnline ML projects](https://github.com/avish006/MPOnlineOldAssignment) and [computer vision notebooks](https://github.com/avish006/MPONLINE_ASSIGNMENT) | Census income classification, CIFAR-10 and Fashion-MNIST, face recognition, medical image classification, movie recommendations, CartPole and LunarLander, and model serving with FastAPI. |
+| [Deep-ML](https://github.com/avish006/deep-ml) | Handwritten Python solutions for ML and linear algebra exercises. |
 
-**Infra & Tooling**
+## Data analysis and dashboards
 
-<p><img src="https://skillicons.dev/icons?i=fastapi,flask,docker,git,github&theme=dark" /></p>
+- [Indian Startup Funding](https://github.com/avish006/Startup-Analysis) — a Streamlit dashboard for exploring funding rounds, investors, industries, and cities.
+- [Crypto Trading Analysis](https://github.com/avish006/Crypto-Trading-Data-Analysis) — comparison of 32 trading accounts across market sentiment regimes using drawdown, risk-adjusted returns, and other performance measures.
+- [Bank Loan Dashboard](https://github.com/avish006/Power-BI-Bank-Loan-Dashboard) — loan portfolio analysis with PostgreSQL and Power BI.
 
-<sub>+ FAISS</sub>
+## Technical toolkit
 
-</div>
+| Area | Tools |
+| --- | --- |
+| Languages | Python, C++, SQL, TypeScript |
+| Agents and evaluation | LangChain, LangGraph, CrewAI, MCP, DeepEval, G-Eval, Pydantic |
+| Retrieval and applied ML | Haystack, BM25, FAISS, Upstash Vector, ChromaDB, PyTorch, TensorFlow, scikit-learn, Hugging Face, LoRA/PEFT |
+| APIs, deployment, and data | FastAPI, Flask, React, Streamlit, Docker, Git, GitHub Actions, PostgreSQL, pandas, NumPy |
 
-<br/>
+## Hackathons & Achievements
 
-## 🏆 Featured Projects
-
-### 🕵️ [Job Hunt AI Agent](https://github.com/avish006/job-hunt-agent)
-![Stars](https://img.shields.io/github/stars/avish006/job-hunt-agent?style=flat-square&color=yellow) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-An LLM-driven job search agent that turns a resume into a search strategy and hunts across the entire web for you.
-- Expands **5–8 resume-derived job titles** into up to **12 semantic variants each**, then deduplicates the whole query set via TF-IDF cosine similarity to cut redundant searches
-- Concurrently orchestrates **6 job sources** (JobSpy, Playwright, SearxNG+Crawl4AI, HackerNews, YC Work at a Startup, Wellfound) via `asyncio.gather`, with a two-stage relevance filter (TF-IDF pass + LLM fallback on borderline scores)
-- Scores every job with a **dual-axis resume-matcher** (ATS keyword overlap + TF-IDF semantic similarity) and exposes the whole thing as an **MCP tool** callable straight from Claude Desktop or Cursor
-
-### 🔎 [Deep Research Agent](https://github.com/avish006/deep-research-agent)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-A 3-agent autonomous research pipeline that takes one query and returns a fully sourced report, live.
-- **Planner → Searcher → Writer** pipeline on LangGraph's `StateGraph`; cut an intermediate synthesis stage from a prior 4-agent design to reduce token usage while preserving source detail
-- Built a **zero-LLM algorithmic scraping layer** that scores source credibility (weighting `.edu`/Wikipedia-class domains), bypassing per-page API calls, with retry/backoff on 429 rate limits
-- Streams agent reasoning **and** the generated Markdown report live over **Server-Sent Events**
-
-### 📄 [DocuMind](https://github.com/avish006/Rag-Project)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-
-A multimodal RAG system built to actually survive 700–900 page PDFs, not just demo-sized ones.
-- **Hybrid BM25 + FAISS** retrieval (alpha=0.5, top-k=5) on `BAAI/bge-small-en-v1.5` embeddings, tested on 10+ full-length books
-- PyMuPDF ingestion into 500-char chunks (50-char overlap) with **MD5-hash caching** to skip reprocessing repeat uploads; grounded, KaTeX-rendered math answers
-- **CLIP (ViT-B/32)** for image-query relevance + on-demand EasyOCR across up to 50 figures/doc — shipped a 300MB+ text-only build for free-tier HF Spaces alongside the full 2.7GB+ multimodal version
-
-
-### 🧭 Pathwise — CodeVerse Hackathon Finalist
-<p>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-</p>
-
-An AI-powered, all-in-one study & revision platform that turns any topic into a personalized, step-by-step learning roadmap, with content fact-checked live against Wikipedia/Google search APIs.
-- Built with a **React + Flask** stack, using **Supabase** for the database layer
-- **Finalist out of 250 teams** at the CodeVerse Hackathon (Metaversity Club, VIT Bhopal, powered by OSCode)
-- Built with teammates **Abhay Tyagi**, **Ashish Vishwakarma** & **Vaibhav Arora**
-
-
-<br/>
-
-## 🌱 Open Source
-
-**[`upstash-haystack`](https://github.com/avish006/upstash_haystack)** — a production integration I built and published for **[Haystack](https://haystack.deepset.ai)**, deepset's LLM orchestration framework, letting any Haystack pipeline use Upstash Vector as a serverless document store with zero infrastructure to manage.
-
-- Shipped 3 components: `UpstashDocumentStore`, `UpstashEmbeddingRetriever`, `UpstashHybridRetriever` (dense + sparse hybrid search via native Reciprocal Rank Fusion)
-- Published as a pip-installable package — `pip install upstash-haystack`
-- **Officially listed** on Haystack's [integrations page](https://haystack.deepset.ai/integrations/upstash/), credited as author
-
-<div align="center">
-
-[![PyPI](https://img.shields.io/pypi/v/upstash-haystack?style=flat-square&color=8B5CF6&label=PyPI)](https://pypi.org/project/upstash-haystack/)
-[![Haystack Integration](https://img.shields.io/badge/Haystack-Official%20Integration-FF6B35?style=flat-square)](https://haystack.deepset.ai/integrations/upstash/)
-
-</div>
-
-
-## 🥇 Hackathon & Achievements
-
-<div align="center">
-
-| 🏅 Achievement | Result |
-|---|---|
-| **Kaggle Expert** | Peak rank **1,429 / 60,000+** (Top 3%) · 🥈 1 Silver + 🥉 5 Bronze medals · 100+ forks · 150+ upvotes |
+| Achievement | Result |
+| --- | --- |
+| **Kaggle Expert** | Peak rank **1,429 / 60,000+** (Top 3%) · 1 Silver + 5 Bronze medals · 100+ forks · 150+ upvotes |
 | **Flipkart Gridlock 2.0** | Ranked **42 / 6,912** — national-level engineering challenge |
 | **Shell AI Hackathon** | Ranked **181 / 1,500+** — fuel blend property prediction (ML) |
 | **CodeVerse Hackathon** | **Finalist, Top 50 / 300+** teams — built *Pathwise*, an AI-powered EdTech study platform |
 | **DSA / Competitive Programming** | **500+ problems** solved across LeetCode, GeeksforGeeks & Codeforces |
 
-</div>
+## Certifications
 
-<br/>
-
-## 📜 Certifications
-
-- 🎓 **OCI Certified Generative AI Professional**
-- 🎓 **Deep Learning Specialization**
-
-<br/>
-
-## 📫 Let's Connect
-
-<div align="center">
-
-I'm always up for talking about agentic AI, RAG systems, or why your eval harness is lying to you.
-
-<a href="https://linkedin.com/in/avish-sinha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://www.kaggle.com/avish006"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
-<a href="mailto:avishsinha10@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:6366F1&height=100&section=footer" width="100%"/>
-
-</div>
+- [OCI Certified Generative AI Professional](https://catalog-education.oracle.com/ords/certview/sharebadge?id=B5989130D2866FAEA5F7AAF2E6B72AACE90BC608CCF3513AFEFF9CC8AF76799A)
+- [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/1DE22K271YAV)
